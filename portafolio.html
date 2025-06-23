@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Hardsoftronic Company</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="menu-toggle" id="menu-toggle">
+                &#9776; <!-- icono de hamburguesa -->
+            </div>
+            <a href="index.html" class="logo"><img src="./images/LogoHTC.png" alt="Logo"  style="width: 50px;">Hardsoftronic Company</a>
+            <ul class="menu" id="menu">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio-hero">
+            <h1>Nuestro Trabajo</h1>
+        </section>
+
+        <section class="gallery">
+            <div class="gallery-item">
+                <img src="./images/web_design1.png" alt="Diseño Web 1">
+                <div class="overlay"><span>Ver Proyecto</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="./images/web_design2.png" alt="Diseño Web 2">
+                <div class="overlay"><span>Ver Proyecto</span></div>
+            </div>
+        </section>
+
+        <div class="lightbox" id="lightbox">
+            <span class="close-lightbox">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hardsoftronic Company. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/5537303410" target="_blank" class="whatsapp-float">
+        <img src="./images/whatsapp-icon.png" alt="WhatsApp">
+    </a>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
